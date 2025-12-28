@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "installCommand": "npm install",
+  "env": {
+    "SENDGRID_API_KEY": "@sendgrid-api-key",
+    "FROM_EMAIL": "@from-email",
+    "TO_EMAIL": "@to-email"
+  }
+}
